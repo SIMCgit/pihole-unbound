@@ -1,3 +1,6 @@
 #Ignore config files if changed
 .env
 docker-compose.yml
+etc-dnsmasq.d/*
+etc-pihole/*
+
