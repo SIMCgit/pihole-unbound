@@ -1,5 +1,4 @@
 # pihole-unbound
-Pihole and Unbound
 
 Pihole and Unbound in one docker container.
 
