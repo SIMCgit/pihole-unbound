@@ -26,6 +26,8 @@ services:
         volumes:
             - ./etc-pihole:/etc/pihole:rw
             - ./etc-dnsmasq.d:/etc/dnsmasq.d:rw 
+        cap_add:
+            - NET_ADMIN
         restart: ${RESTART}
  
 
